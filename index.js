@@ -27,8 +27,8 @@ function viewCart() {
     for (var i = 0; i < cart.length; i++) {
       for ( var list in cart[i]) {
         mystring +=`${list} at $${cart[i][list]}`
-      if ()
-        
+      if (i !== cart.length-1)
+
     }
     console.log(mystring)
   }
