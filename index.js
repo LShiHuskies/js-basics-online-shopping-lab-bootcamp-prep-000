@@ -35,6 +35,10 @@ function viewCart() {
        var variable = newarray.join(" and ")
        mystring += variable + "."
     }
+    else if (newarray.length > 2) {
+      var lastelement = newarray.pop()
+      mystring += newarray + " and " + lastelement
+    }
     console.log(mystring + newarray.join(", ") + ".")
   }
 }
