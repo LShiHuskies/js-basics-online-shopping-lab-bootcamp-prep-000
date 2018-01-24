@@ -30,7 +30,7 @@ function viewCart() {
         items.push(item + " at $" + cart[i][item])
       }
     }
-    console.log(mystring + items.join(", ") + ".");
+    console.log(mystring + items.join(", ") + ".")
   }
 }
 
