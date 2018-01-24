@@ -31,7 +31,7 @@ function viewCart() {
       }
     }
   }
-    console.log(mystring)
+    console.log(mystring + newarray.join(", ") + ".")
   }
 }
 
