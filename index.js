@@ -27,7 +27,7 @@ function viewCart() {
     var newarray = [];
     for (var i = 0; i < cart.length; i++) {
         var keys = Object.keys(cart[i][0])
-        newarray.push(item + " at $" + cart[i][item])
+        newarray.push(keys + " at $" + cart[i][item])
     }
     if(newarray.length > 1) {
       var lastelement = newarray.slice(-1)[0]
