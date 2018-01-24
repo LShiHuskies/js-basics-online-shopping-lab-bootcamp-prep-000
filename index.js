@@ -26,10 +26,13 @@ function viewCart() {
     var mystring = "In your cart, you have "
     var newarray = [];
     for (var i = 0; i < cart.length; i++) {
-      for ( var item in cart[i]) {
+        var keys = Object.keys(cart[i][0])
         newarray.push(item + " at $" + cart[i][item])
-      }
-
+    }
+    if(newarray.length > 1) {
+      var lastelement = newarray.slice(-1)[0]
+      newarray.pop()
+      newarray + " and " + lastelement
     }
     console.log(mystring + newarray.join(", ") + ".")
   }
