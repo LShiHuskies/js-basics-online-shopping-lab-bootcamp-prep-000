@@ -29,6 +29,10 @@ function viewCart() {
       for ( var item in cart[i]) {
         newarray.push(item + " at $" + cart[i][item])
       }
+    
+    }
+    if(newarray.length > 1) {
+      newarray[newarray.length - 1]
     }
     console.log(mystring + newarray.join(", ") + ".")
   }
