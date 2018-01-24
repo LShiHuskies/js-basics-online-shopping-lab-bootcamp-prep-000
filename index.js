@@ -23,7 +23,6 @@ function viewCart() {
     console.log("Your shopping cart is empty.")
   }
   else {
-    var mystring = "In your cart, you have "
     var newarray = [];
     for (var i = 0; i < cart.length; i++) {
         var keys = Object.keys(cart[i][0])
@@ -34,6 +33,7 @@ function viewCart() {
       newarray.pop()
       newarray + " and " + lastelement
     }
+    var mystring = "In your cart, you have "
     console.log(mystring + newarray.join(", ") + ".")
   }
 }
