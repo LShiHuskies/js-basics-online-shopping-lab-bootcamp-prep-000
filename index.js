@@ -45,7 +45,12 @@ function viewCart() {
 
 function total() {
   // write your code here
-  let t = 107
+  let z = 0
+  for (var i=0; i<cart.length; i++) {
+    z = += cart[i][Object.keys(cart[i])
+
+    return z
+  }
 
   return t
 }
