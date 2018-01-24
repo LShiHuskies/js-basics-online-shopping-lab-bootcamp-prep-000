@@ -38,7 +38,7 @@ function viewCart() {
     else if (newarray.length > 2) {
       var lastelement = newarray.pop()
       var otheritem = newarray.join(", ")
-      mystring += otheritem + " and " + lastelement
+      mystring += otheritem + " and " + lastelement + "."
     }
     console.log(mystring)
   }
