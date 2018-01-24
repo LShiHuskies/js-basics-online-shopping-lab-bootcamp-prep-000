@@ -24,7 +24,7 @@ function viewCart() {
   }
   else {
     var mystring = "In your cart, you have "
-    var items = [];
+    var newarray = [];
     for (var i = 0; i < cart.length; i++) {
       for ( var item in cart[i]) {
         items.push(item + " at $" + cart[i][item])
