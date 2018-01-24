@@ -34,6 +34,7 @@ function viewCart() {
     if(newarray.length > 1) {
       var lastelement = newarray.slice(-1)[0]
       newarray.pop() + "and " + lastelement
+      newarray.join("and ") + lastelement
     }
     console.log(mystring + newarray.join(", ") + ".")
   }
