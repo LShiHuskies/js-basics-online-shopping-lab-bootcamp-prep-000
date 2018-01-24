@@ -45,9 +45,9 @@ function viewCart() {
 
 function total() {
   // write your code here
-  var z = 0
-  for (var i =0; i <cart.length; i++) {
-    z += cart[i][Object.keys(cart[i])
+  var z = 0;
+  for (var i =0; i < cart.length; i++) {
+    z += cart[i][Object.keys(cart[i])]
   }
     return z
   }
