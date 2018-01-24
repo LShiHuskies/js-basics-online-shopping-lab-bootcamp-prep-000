@@ -31,7 +31,7 @@ function viewCart() {
         mystring += ", "
       }
       else {
-      mystring += ". "
+      mystring += "."
     }
     }
   }
