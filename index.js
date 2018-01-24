@@ -24,11 +24,10 @@ function viewCart() {
   }
   else {
     var mystring = "In your cart, you have "
-    var arrayprice = []
     for (var i = 0; i < cart.length; i++) {
       for ( var list in cart[i]) {
         mystring +=`${list} at $${cart[i][list]}`
-        arrayprice.push(mystring)
+        arrayprice.push()
     }
     console.log(mystring)
   }
