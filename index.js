@@ -42,7 +42,6 @@ function viewCart() {
     }
     console.log(mystring)
   }
-}
 
 function total() {
   // write your code here
