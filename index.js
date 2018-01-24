@@ -30,9 +30,11 @@ function viewCart() {
       if (i !== cart.length-1) {
         mystring += ', '
       }
-      else 
+      else {
       mystring += '. ' 
     }
+    }
+  }
     console.log(mystring)
   }
 }
