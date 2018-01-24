@@ -30,7 +30,6 @@ function viewCart() {
         newarray.push(newarray + "at $" + cart[i][newarray])
       }
     }
-  }
     console.log(mystring + newarray.join(", ") + ".")
   }
 }
