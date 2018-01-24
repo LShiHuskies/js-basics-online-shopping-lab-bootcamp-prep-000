@@ -29,7 +29,7 @@ function viewCart() {
       }
   var mystring = "In your cart, you have "
     if(newarray.length === 1) {
-      mystring += newarray
+      mystring += newarray + "."
     }
     else if (newarray.length === 2) {
        var variable = newarray.join(" and ")
