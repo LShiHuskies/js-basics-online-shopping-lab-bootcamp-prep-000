@@ -34,9 +34,9 @@ function viewCart() {
     if(newarray.length > 1) {
       var lastelement = newarray.slice(-1)[0]
       newarray.pop()
-      newarray = (newarray + " and " + lastelement)
+      var newnewarray = (newarray + " and " + lastelement)
     }
-    console.log(mystring + newarray.join(", ") + ".")
+    console.log(mystring + newnewarray.join(", ") + ".")
   }
 }
 
