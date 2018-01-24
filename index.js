@@ -30,7 +30,7 @@ function viewCart() {
         newarray.push(item + " at $" + cart[i][item])
       }
     }
-    console.log("In your cart, you have " + newarray.join(", ") + ".")
+    console.log("In your cart, you have " + newarray.join(", ") + ".");
   }
 }
 
