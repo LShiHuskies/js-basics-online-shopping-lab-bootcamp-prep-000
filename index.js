@@ -22,12 +22,10 @@ function viewCart() {
   if (cart.length === 0) {
     console.log("Your shopping cart is empty.")
   }
-  else {
     var newarray = [];
     for (var i = 0; i < cart.length; i++) {
         var keys = Object.keys(cart[i][0])
         newarray.push(keys + " at $" + cart[i][keys])
-    }
     if(newarray.length > 1) {
       var lastelement = newarray.slice(-1)[0]
       newarray.pop()
