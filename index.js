@@ -28,10 +28,10 @@ function viewCart() {
       for ( var list in cart[i]) {
         mystring +=`${list} at $${cart[i][list]}`
       if (i !== cart.length-1) {
-        mystring += ', '
+        mystring += ", "
       }
       else {
-      mystring += '. '
+      mystring += ". "
     }
     }
   }
