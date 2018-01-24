@@ -48,12 +48,10 @@ function total() {
   let z = 0
   for (var i=0; i<cart.length; i++) {
     z = += cart[i][Object.keys(cart[i])
-
+  }
     return z
   }
 
-  return t
-}
 
 function removeFromCart(item) {
   // write your code here
