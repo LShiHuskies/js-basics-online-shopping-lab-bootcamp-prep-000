@@ -27,12 +27,7 @@ function viewCart() {
     var newarray = [];
     for (var i = 0; i < cart.length; i++) {
       for ( var newarray in cart[i]) {
-        mystring +=`${list} at $${cart[i][list]}`
-        if (i !== cart.length-1) {
-          mystring +=`${list} at $${cart[i][list]}`
-          mystring +="and "
-        } else {
-        mystring += "."
+        newarray.push(newarray + "at $" + cart[i][newarray])
       }
     }
   }
