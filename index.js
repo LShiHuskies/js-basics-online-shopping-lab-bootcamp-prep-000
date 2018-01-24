@@ -32,8 +32,8 @@ function viewCart() {
       mystring += newarray
     }
     else if (newarray.length === 2) {
-       var array = newarray.join(" and ")
-       mystring += array(".")
+       var variable = newarray.join(" and ")
+       mystring += variable + "."
     }
     console.log(mystring + newarray.join(", ") + ".")
   }
