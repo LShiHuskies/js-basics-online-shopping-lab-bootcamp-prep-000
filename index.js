@@ -27,9 +27,9 @@ function viewCart() {
     for (var i = 0; i < cart.length; i++) {
       for ( var list in cart[i]) {
         mystring +=`${list} at $${cart[i][list]}`
-        
+
         mystring += "."
-  
+
     }
   }
     console.log(mystring)
