@@ -31,6 +31,9 @@ function viewCart() {
     if(newarray.length === 1) {
       mystring += newarray
     }
+    else if (newarray.length === 2) {
+      newarray.join("and ")
+    }
     console.log(mystring + newarray.join(", ") + ".")
   }
 }
