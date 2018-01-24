@@ -29,7 +29,7 @@ function viewCart() {
       for ( var item in cart[i]) {
         newarray.push(item + " at $" + cart[i][item])
       }
-    
+
     }
     if(newarray.length > 1) {
       var lastelement = newarray.slice(-1)[0]
