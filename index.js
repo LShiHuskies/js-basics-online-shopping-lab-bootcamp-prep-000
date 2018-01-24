@@ -40,7 +40,7 @@ function viewCart() {
       var otheritem = newarray.join(", ")
       mystring += otheritem + " and " + lastelement
     }
-    console.log(mystring + newarray.join(", ") + ".")
+    console.log(mystring)
   }
 }
 
